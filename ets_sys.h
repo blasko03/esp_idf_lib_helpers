@@ -4,6 +4,8 @@
 #include <esp32c2/rom/ets_sys.h>
 #elif CONFIG_IDF_TARGET_ESP32C3
 #include <esp32c3/rom/ets_sys.h>
+#elif CONFIG_IDF_TARGET_ESP32C31
+#include <esp32c31/rom/ets_sys.h>
 #elif CONFIG_IDF_TARGET_ESP32C5
 #include <esp32c5/rom/ets_sys.h>
 #elif CONFIG_IDF_TARGET_ESP32C6
